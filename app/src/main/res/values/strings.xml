@@ -8,4 +8,22 @@
         <item>brown</item>
         <item>dark</item>
     </string-array>
+    <string-array name="light">
+        <item>Aguila Light</item>
+        <item>Corona Light</item>
+        <item>Bud light</item>
+    </string-array>
+    <string-array name="amber">
+        <item>Jack Amber</item>
+        <item>Red Moose</item>
+    </string-array>
+    <string-array name="brown">
+        <item>Popaire Treumal</item>
+        <item>Crafty Dan Big Ben.</item>
+    </string-array>
+    <string-array name="dark">
+        <item>Leffe</item>
+        <item>Delirium Tremens</item>
+    </string-array>
+
 </resources>
