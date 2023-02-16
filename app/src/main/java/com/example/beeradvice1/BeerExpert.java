@@ -9,21 +9,18 @@ import java.util.Objects;
 public class BeerExpert {
 
     public static String[] listBeer(String tipo) {
-        if(tipo.equals("amber")) {
-            String[] color = {"Jack Amber", "Red Moose"};
+        if(tipo.equals("Diabetes")) {
+            String[] color = {"Glucosa en la sangre", "Agudez visual"};
             return color;
         }
-        if(Objects.equals(tipo, "light")) {
-            String[] color = {"Aguila Light", "Corona Light", "Bud light"};
+        String[] color;
+        if(Objects.equals(tipo, "Hipertensión")) {
+            color = new String[]{"Presión arterial"};
             return color;
 
         }
-        String[] color;
-        if(Objects.equals(tipo, "brown")) {
-            color = new String[]{"Popaire Treumal", "Crafty Dan Big Ben"};
-        }
         else {
-            color = new String[]{"Leffe", "Delirium Tremens"};
+            color = new String[]{"Frecuencia cardiaca"};
         }
         return color;
 
